@@ -26,6 +26,7 @@ export default function NoteItem(props) {
             ></i>
           </div>
           <p className="card-text">{note.description}</p>
+          {note.tag && <p className="card-text">{note.tag}</p>}
         </div>
       </div>
     </div>
